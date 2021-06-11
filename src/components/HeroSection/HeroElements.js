@@ -10,7 +10,7 @@ export const HeroContainer = styled.div`
  height: 800px;
  position: relative;
  z-index: 1;
-:before{
+:before {
     content:'';
     position: absolute;
     top: 0;
@@ -19,7 +19,7 @@ export const HeroContainer = styled.div`
     bottom: 0;
     background: linear-gradient(
         180deg, 
-        rgba(0,0,0,0,0.2) 0%,
+        rgba(0,0,0,0.2) 0%,
          rgba(0,0,0,0.6) 100%),
     linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
     z-index: 2;
@@ -40,7 +40,7 @@ export const HeroBg = styled.div`
 
 export const VideoBg = styled.video`
  width: 100%;
- height: 100%100%;
+ height: 100%;
  -o-object-fit: cover;
  object-fit: cover;
  background: #232a34;

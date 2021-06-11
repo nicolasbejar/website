@@ -1,18 +1,51 @@
-import React from 'react'
+export const homeObjOne = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Education',
+    headLine: 'Software Engineering',
+    description: 'Software Engineering student at Universidad de Los Andes. Interested in FinTech, applying machine learning to finance and other management areas. Experience programming in Java, Python, using front end development frameworks such as Django and AngularJs and working with relational and non-relational databases such as SQL and MongoDB. Knowledge in agile software development methodologies such as SCRUM. Result-oriented person with outstanding team work and communication skills .',
+    buttonLabel: 'Learn More',
+    imgStart: false,
+    img: require('../../images/svg-1.svg').default,
+    alt: 'Software',
+    dark: false,
+    primary: true,
+    darkText: false,
+};
 
-const InfoSection = () => {
-    return (
-        <>
-            <InfoContainer id= {id}>
-                <InfoWrapper>
-                    <InfoRow>
-                
-                    </InfoRow>
-                </InfoWrapper>
-            </InfoContainer>
+export const homeObjTwo = {
+    id: 'discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Education',
+    headLine: 'Industrial Engineering',
+    description: 'Industrial Engineering student at Universidad de Los Andes. Interested in finance, optimization and applied machine learning to finance. Experience programming in R, VBA and Python. Knowledge in statistics and probability models.',
+    buttonLabel: 'Learn More',
+    imgStart: true,
+    img: require('../../images/svg-2.svg').default,
+    alt: 'Industrial',
+    dark2: true,
+    dark: false,
+    primary: false,
+    darkText: true,
+};
 
-        </>
-    )
-}
-
-export default InfoSection
+export const homeObjThree = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Education',
+    headLine: 'Software Engineer',
+    description: 'Software Engineering student at Universidad de Los Andes. Interested in FinTech, applying machine learning to finance and other management areas. Experience programming in Java, Python, using front end development frameworks such as Django and AngularJs and working with relational and non-relational databases such as SQL and MongoDB. Knowledge in agile software development methodologies such as SCRUM. Result-oriented person with outstanding team work and communication skills .',
+    buttonLabel: 'Learn More',
+    imgStart: false,
+    img: require('../../images/svg-3.svg').default,
+    alt: 'Car',
+    dark: false,
+    primary: true,
+    darkText: false,
+};
