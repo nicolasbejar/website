@@ -10,12 +10,12 @@ const Sidebar = ({isOpen,toggle}) => {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
-                    <SidebarLink to="discover" onClick={toggle}>Discover</SidebarLink>
-                    <SidebarLink to="services" onClick={toggle}>Services</SidebarLink>
+                    <SidebarLink to="projects" onClick={toggle}>Projects</SidebarLink>
+                    <SidebarLink to="resume" onClick={toggle}>Resume</SidebarLink>
                     <SidebarLink to="signup" onClick={toggle}>Sign Up</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoutes to ='/signin'>Sign In</SidebarRoutes>
+                    <SidebarRoutes href="mailto:n.bejar@uniandes.edu.co" >Send Message</SidebarRoutes>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

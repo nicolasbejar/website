@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Video from '../../videos/video.mp4';
-import {Button} from '../ButtonElement'
+import { NavBtnLink } from '../Navbar/NavbarElements';
 import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper,ArrowForward,ArrowRight} from './HeroElements';
 
 const HeroSection = () => {
@@ -23,10 +23,10 @@ const HeroSection = () => {
                     Send me a message if you liked my profile
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} 
+                    <NavBtnLink href="mailto:n.bejar@uniandes.edu.co" onMouseEnter={onHover} onMouseLeave={onHover} 
                     primary = "true" dark = "true">
                         Send Message {hover ? <ArrowForward /> : <ArrowRight/>} 
-                    </Button>
+                    </NavBtnLink>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

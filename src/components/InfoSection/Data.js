@@ -13,10 +13,11 @@ export const homeObjOne = {
     dark: false,
     primary: true,
     darkText: false,
+    href: "https://sistemas.uniandes.edu.co/es/isis",
 };
 
 export const homeObjTwo = {
-    id: 'discover',
+    id: 'about',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
@@ -27,25 +28,28 @@ export const homeObjTwo = {
     imgStart: true,
     img: require('../../images/svg-2.svg').default,
     alt: 'Industrial',
-    dark2: true,
-    dark: false,
+    dark: true,
     primary: false,
     darkText: true,
+    href: "https://industrial.uniandes.edu.co/es/programas-academicos/pregrado/ingenieria-industrial",
+
 };
 
 export const homeObjThree = {
-    id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Education',
-    headLine: 'Software Engineer',
-    description: 'Software Engineering student at Universidad de Los Andes. Interested in FinTech, applying machine learning to finance and other management areas. Experience programming in Java, Python, using front end development frameworks such as Django and AngularJs and working with relational and non-relational databases such as SQL and MongoDB. Knowledge in agile software development methodologies such as SCRUM. Result-oriented person with outstanding team work and communication skills .',
-    buttonLabel: 'Learn More',
-    imgStart: false,
-    img: require('../../images/svg-3.svg').default,
-    alt: 'Car',
-    dark: false,
-    primary: true,
-    darkText: false,
+    id: 'resume',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Resume',
+    headLine: 'Full Resume',
+    description: 'Software Engineering & Industrial Engineering student at Universidad de Los Andes. If you want to check the full resume click on the Get Resume button. ',
+    buttonLabel: 'Get Resume',
+    imgStart: true,
+    img: require('../../images/svg-5.svg').default,
+    alt: 'Avion',
+    dark: true,
+    primary: false,
+    darkText: true,
+    href: require('../../files/Nicolas_Bejar_CV.pdf').default,
+    download: "Nicolas Bejar CV"
 };
