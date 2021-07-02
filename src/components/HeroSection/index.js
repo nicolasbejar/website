@@ -20,7 +20,7 @@ const HeroSection = () => {
                 <HeroH1>Industrial Engineering Student</HeroH1>
 
                 <HeroP>
-                    Send me a message if you liked my profile
+                Currently in the final semester of my degrees, looking for professional experience. I consider myself a determined and hardworking person who is willing to learn and develop personally as well as professionally. Interested in machine learning, data science and finance
                 </HeroP>
                 <HeroBtnWrapper>
                     <NavBtnLink href="mailto:n.bejar@uniandes.edu.co" onMouseEnter={onHover} onMouseLeave={onHover} 
